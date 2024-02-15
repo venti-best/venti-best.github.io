@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    >   
+    <link rel="shortcut icon" href="/img/1680380738_phonoteka-org-p-pikselnie-tsveti-art-pinterest-70.png">
+    <link rel="stylesheet" href="/zagruzka.css">
+    <title>loading</title>
+</head>
+
+
+
+<body>
+    <embed src="/Toby_Fox_-_Waterfall_64962775.mp3" autostart="true" hidden="false" loop="true" width="300" height="true" > </embed>
+    <img src="/img/zagrr.gif" alt="">
+
+
+    <div id="counter">6</div>
+    <script>
+        setInterval(function() {
+            var div = document.querySelector("#counter");
+            var count = div.textContent * 1 - 1;
+            div.textContent = count;
+            if (count <= 0) {
+                window.location.replace("yes.html");
+            }
+        }, 1000);
+    </script>
+
+ 
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+
+
+
+
+
+body {
+    margin: 0;
+background-color: #E3D9BE;
+    box-sizing:border-box;
+}
+
+body * {
+    box-sizing: border-box;
+    cursor: url('./img/cursor-arrow-1_icon-icons.com_48643.png'), pointer;
+}
+
+/* 
+body * {
+    box-sizing:border-box;
+    cursor: url('/img/cursor-arrow-1_icon-icons.com_48643.png') pointer;
+    background-color: rgb(181, 125, 232); */
+/* } */
+
+
+
+.xp {
+    height: 240px;
+    width: 360px;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.kot {
+    text-align: center;
+    background-color: #75565C;
+	
+	padding: 10px 0;
+	font-size:16px;
+}
+
+/* h1 {
+    text-align: center;
+} */
+
+h1 {
+    text-transform: uppercase;
+    color: rgb(187, 141, 4);
+}
+
+h2 {
+    text-transform: uppercase;
+    color: rgb(156, 92, 46)
+}
+
+/* .btn {
+ position: absolute;
+ left: 50%;
+ top: 50%;
+ font-size: 15px;
+
+ border: none;
+ outline: none;
+ text-transform: uppercase;
+ font-weight: bold;
+ box-shadow: rgb(196, 37, 37) 0 5px 15px;
+} */
